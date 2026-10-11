@@ -313,6 +313,8 @@ img {
     overflow: hidden;
     transition: transform 0.3s ease;
     box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    display: flex;
+    flex-direction: column;
 }
 
 .card:hover {
@@ -327,6 +329,13 @@ img {
 
 .card-content {
     padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.card-content .btn-coming-soon {
+    margin-top: auto;
 }
 
 .card-content h3 {
